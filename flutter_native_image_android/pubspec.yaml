@@ -1,0 +1,33 @@
+name: flutter_native_image_android
+description: Android implementation of the flutter_native_image plugin.
+version: 0.0.7
+# homepage: https://konseben.dev
+# issue_tracker: https://github.com/btastic/flutter_native_image/issues
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_native_image_platform_interface:
+    path: ../flutter_native_image_platform_interface
+  # flutter_native_image_platform_interface:
+  #   git:
+  #     url: https://github.com/avmelnikoff/flutter_native_image.git
+  #     ref: main
+  #     path: flutter_native_image_platform_interface/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  plugin:
+    implements: flutter_native_image
+    platforms:
+      android:
+        package: com.example.flutternativeimage
+        pluginClass: FlutterNativeImagePlugin
