@@ -18,7 +18,7 @@ dependencies:
   flutter_native_image_android:
     git:
       url: https://github.com/avmelnikoff/flutter_native_image.git
-      ref: main
+      ref: master
       path: flutter_native_image_android/
   
   # flutter_native_image_ios:
@@ -26,7 +26,7 @@ dependencies:
   flutter_native_image_ios:
     git:
       url: https://github.com/avmelnikoff/flutter_native_image.git
-      ref: main
+      ref: master
       path: flutter_native_image_ios/
 
   # flutter_native_image_aurora:
@@ -34,7 +34,7 @@ dependencies:
   # # flutter_native_image_aurora:
   # #   git:
   # #     url: https://github.com/avmelnikoff/flutter_native_image.git
-  # #     ref: main
+  # #     ref: master
   # #     path: flutter_native_image_aurora/
   
   # flutter_native_image_platform_interface:
@@ -42,7 +42,7 @@ dependencies:
   flutter_native_image_platform_interface:
     git:
       url: https://github.com/avmelnikoff/flutter_native_image.git
-      ref: main
+      ref: master
       path: flutter_native_image_platform_interface/
   
 dev_dependencies:
