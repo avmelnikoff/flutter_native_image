@@ -3,6 +3,7 @@ description: A flutter plugin which uses native iOS/Android to resize, compress 
 version: 0.0.7
 # homepage: https://konseben.dev
 # issue_tracker: https://github.com/btastic/flutter_native_image/issues
+publish_to: none
 
 environment:
   sdk: '>=3.2.2 <4.0.0'

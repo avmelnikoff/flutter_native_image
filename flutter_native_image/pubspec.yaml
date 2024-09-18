@@ -3,7 +3,7 @@ description: A flutter plugin which uses native iOS/Android to resize, compress 
 version: 0.0.7
 # homepage: https://konseben.dev
 # issue_tracker: https://github.com/btastic/flutter_native_image/issues
-# publish_to: none
+publish_to: none
 
 environment:
   sdk: '>=3.2.2 <4.0.0'
@@ -13,21 +13,21 @@ dependencies:
   flutter:
     sdk: flutter
   
-  flutter_native_image_android:
-    path: ../flutter_native_image_android
   # flutter_native_image_android:
-  #   git:
-  #     url: https://github.com/avmelnikoff/flutter_native_image.git
-  #     ref: main
-  #     path: flutter_native_image_android/
+    # path: ../flutter_native_image_android
+  flutter_native_image_android:
+    git:
+      url: https://github.com/avmelnikoff/flutter_native_image.git
+      ref: main
+      path: flutter_native_image_android/
   
-  flutter_native_image_ios:
-    path: ../flutter_native_image_ios
   # flutter_native_image_ios:
-  #   git:
-  #     url: https://github.com/avmelnikoff/flutter_native_image.git
-  #     ref: main
-  #     path: flutter_native_image_ios/
+  #   path: ../flutter_native_image_ios
+  flutter_native_image_ios:
+    git:
+      url: https://github.com/avmelnikoff/flutter_native_image.git
+      ref: main
+      path: flutter_native_image_ios/
 
   # flutter_native_image_aurora:
   #   path: ../flutter_native_image_aurora
@@ -37,13 +37,13 @@ dependencies:
   # #     ref: main
   # #     path: flutter_native_image_aurora/
   
-  flutter_native_image_platform_interface:
-    path: ../flutter_native_image_platform_interface
   # flutter_native_image_platform_interface:
-  #   git:
-  #     url: https://github.com/avmelnikoff/flutter_native_image.git
-  #     ref: main
-  #     path: flutter_native_image_platform_interface/
+  #   path: ../flutter_native_image_platform_interface
+  flutter_native_image_platform_interface:
+    git:
+      url: https://github.com/avmelnikoff/flutter_native_image.git
+      ref: main
+      path: flutter_native_image_platform_interface/
   
 dev_dependencies:
   flutter_lints: ^4.0.0
